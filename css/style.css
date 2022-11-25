@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
     margin: 0;
     height: 100vh;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     /* background-color: aqua; */
 }
 
@@ -123,6 +126,7 @@ li {
     grid-column: 1/2;
     grid-row: 1/4;
     display: grid;
+    padding: 8px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 8% 25% 25% 25%;
     gap: 32px;
