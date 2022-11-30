@@ -198,10 +198,15 @@ ul {
     border-left: 10px solid #003566;
     border-radius: 8px;
     box-shadow: 1px 8px 8px;
+    padding: 24px;
 }
 
-h1, h2, .name {
+h1, h2, .name, h3 {
     color: #001d3d;
+}
+
+h3 {
+    margin: 0;
 }
 
 .principal > h2 {
